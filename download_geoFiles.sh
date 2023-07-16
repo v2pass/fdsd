@@ -8,7 +8,7 @@ geosite_url="https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/dow
 download_file() {
     local url=$1
     local output=$2
-    local max_retries=10
+    local max_retries=20
     local retries=0
 
     while [ $retries -lt $max_retries ]; do
